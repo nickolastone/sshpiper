@@ -8,6 +8,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	"github.com/jessevdk/go-flags"
 	"github.com/tg123/sshkey"
 
 	"github.com/nickolastone/sshpiper/sshpiperd/auditor"
