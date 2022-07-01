@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

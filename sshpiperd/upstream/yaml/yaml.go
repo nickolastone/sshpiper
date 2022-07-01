@@ -10,7 +10,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 	"gopkg.in/yaml.v3"

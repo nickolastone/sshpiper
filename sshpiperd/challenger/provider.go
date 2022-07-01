@@ -3,7 +3,7 @@ package challenger
 import (
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tg123/sshpiper/sshpiperd/registry"
+	"github.com/nickolastone/sshpiper/sshpiperd/registry"
 )
 
 // Handler is the callback for additional challenger

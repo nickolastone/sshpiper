@@ -3,7 +3,7 @@ package auditor
 import (
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tg123/sshpiper/sshpiperd/registry"
+	"github.com/nickolastone/sshpiper/sshpiperd/registry"
 )
 
 // Hook is called after ssh connection pipe is established and all msg will be

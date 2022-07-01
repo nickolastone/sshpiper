@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tg123/sshpiper/sshpiperd/registry"
+	"github.com/nickolastone/sshpiper/sshpiperd/registry"
 )
 
 // Handler will be installed into sshpiper and help to establish the connection to upstream

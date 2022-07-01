@@ -10,7 +10,7 @@ import (
 	"golang.org/x/crypto/ssh"
 
 	"github.com/jinzhu/gorm"
-	upstreamprovider "github.com/tg123/sshpiper/sshpiperd/upstream"
+	upstreamprovider "github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 func generateKeyPair() (string, string, error) {

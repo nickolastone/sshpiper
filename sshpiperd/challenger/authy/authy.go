@@ -1,7 +1,7 @@
 package authy
 
 import (
-	"github.com/tg123/sshpiper/sshpiperd/challenger"
+	"github.com/nickolastone/sshpiper/sshpiperd/challenger"
 )
 
 func (authyClient) GetName() string {

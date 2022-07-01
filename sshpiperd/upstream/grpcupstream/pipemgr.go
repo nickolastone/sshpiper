@@ -1,7 +1,7 @@
 package grpcupstream
 
 import (
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 // Return All pipes inside upstream

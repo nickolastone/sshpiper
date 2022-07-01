@@ -5,7 +5,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 func createPipeMgr(load func() (upstream.Provider, error)) interface{} {

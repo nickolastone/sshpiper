@@ -9,7 +9,7 @@ import (
 	"bufio"
 	"bytes"
 	"fmt"
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	"golang.org/x/crypto/ssh/knownhosts"
 	"io/ioutil"
 	"net"

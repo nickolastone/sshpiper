@@ -6,9 +6,9 @@ import (
 	"net"
 	"time"
 
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	"github.com/tg123/remotesigner"
 	"github.com/tg123/remotesigner/grpcsigner"
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
 	"golang.org/x/crypto/ssh"
 )
 

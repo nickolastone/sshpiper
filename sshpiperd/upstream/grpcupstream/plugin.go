@@ -8,8 +8,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	"github.com/tg123/remotesigner/grpcsigner"
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
 	grpc "google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/credentials/insecure"

@@ -1,4 +1,4 @@
-module github.com/tg123/sshpiper
+module github.com/nickolastone/sshpiper
 
 go 1.18
 

@@ -4,7 +4,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite" // gorm dialect
 
-	upstreamprovider "github.com/tg123/sshpiper/sshpiperd/upstream"
+	upstreamprovider "github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 type sqliteplugin struct {

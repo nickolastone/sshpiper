@@ -8,13 +8,12 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jessevdk/go-flags"
 	"github.com/tg123/sshkey"
 
-	"github.com/tg123/sshpiper/sshpiperd/auditor"
-	"github.com/tg123/sshpiper/sshpiperd/challenger"
-	"github.com/tg123/sshpiper/sshpiperd/registry"
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/auditor"
+	"github.com/nickolastone/sshpiper/sshpiperd/challenger"
+	"github.com/nickolastone/sshpiper/sshpiperd/registry"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 type subCommand struct{ callback func(args []string) error }

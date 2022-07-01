@@ -6,8 +6,8 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
-	"github.com/tg123/sshpiper/sshpiperd/utils"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/utils"
 )
 
 func (p *pome) authWithPipe(conn ssh.ConnMetadata, challengeContext ssh.AdditionalChallengeContext) (net.Conn, *ssh.AuthPipe, error) {

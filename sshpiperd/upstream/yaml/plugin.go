@@ -3,7 +3,7 @@ package yaml
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 type plugin struct {

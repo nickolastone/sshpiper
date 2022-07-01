@@ -10,9 +10,8 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/jessevdk/go-flags"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream/grpcupstream"
 	"github.com/tg123/remotesigner/grpcsigner"
-	"github.com/tg123/sshpiper/sshpiperd/upstream/grpcupstream"
 	"golang.org/x/crypto/ssh"
 	"google.golang.org/grpc"
 )

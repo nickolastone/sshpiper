@@ -10,7 +10,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 
-	upstreamprovider "github.com/tg123/sshpiper/sshpiperd/upstream"
+	upstreamprovider "github.com/nickolastone/sshpiper/sshpiperd/upstream"
 )
 
 type pipeConfig struct {

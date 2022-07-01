@@ -1,8 +1,8 @@
 package workingdir
 
 import (
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/sshpiperd/upstream"
 )
 
 var logger *log.Logger

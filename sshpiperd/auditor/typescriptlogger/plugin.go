@@ -8,7 +8,7 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/tg123/sshpiper/sshpiperd/auditor"
+	"github.com/nickolastone/sshpiper/sshpiperd/auditor"
 )
 
 type plugin struct {

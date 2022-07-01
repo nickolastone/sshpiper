@@ -7,7 +7,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/tg123/sshpiper/sshpiperd/upstream/grpcupstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/upstream/grpcupstream"
 )
 
 type server struct {

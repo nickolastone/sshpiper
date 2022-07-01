@@ -5,8 +5,8 @@ import (
 
 	"github.com/jinzhu/gorm"
 
-	upstreamprovider "github.com/tg123/sshpiper/sshpiperd/upstream"
-	"github.com/tg123/sshpiper/sshpiperd/utils"
+	upstreamprovider "github.com/nickolastone/sshpiper/sshpiperd/upstream"
+	"github.com/nickolastone/sshpiper/sshpiperd/utils"
 )
 
 func (p *plugin) ListPipe() ([]upstreamprovider.Pipe, error) {
