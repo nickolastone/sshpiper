@@ -1,4 +1,4 @@
-name: Go
+name: Go Unit Test
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
     steps:
 
     - name: Set up Go 1.x
-      uses: actions/setup-go@v2
+      uses: actions/setup-go@v3
       with:
         go-version: ^1.18      
       id: go
@@ -32,22 +32,17 @@ jobs:
       with:
         setAllVars: true
 
-#     - name: golangci-lint
-#       uses: golangci/golangci-lint-action@v3     
-#       with:
-#           args: --timeout=10m -E gofmt
+    - name: golangci-lint
+      uses: golangci/golangci-lint-action@v3     
+      with:
+          args: --timeout=30m -E gofmt
 
-    - name: Build
-      run: |
-        set -e
+    - name: Test lib ssh
+      run: go test -v -cover ./...
+      working-directory: crypto/ssh
 
-        go build -o sshpiperd
-        ./sshpiperd version
-      working-directory: sshpiperd
-
-    - name: Test
+    - name: Test sshpiper
       run: go test -v -race -cover ./...
-      working-directory: sshpiperd
 
     - name: create release
       env:
