@@ -6,10 +6,10 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/tg123/sshpiper/libplugin"
+	"github.com/nickolastone/sshpiper/libplugin"
 	"github.com/urfave/cli/v2"
 
-	"github.com/tg123/sshpiper/plugin/internal/workingdir"
+	"github.com/nickolastone/sshpiper/plugin/internal/workingdir"
 
 	log "github.com/sirupsen/logrus"
 )

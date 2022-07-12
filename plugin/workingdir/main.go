@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/tg123/sshpiper/libplugin"
+	"github.com/nickolastone/sshpiper/libplugin"
 	"github.com/urfave/cli/v2"
 
-	"github.com/tg123/sshpiper/plugin/internal/workingdir"
+	"github.com/nickolastone/sshpiper/plugin/internal/workingdir"
 )
 
 func createWorkingdir(c *cli.Context, user string) (*workingdir.Workingdir, error) {

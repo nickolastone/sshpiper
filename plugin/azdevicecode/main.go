@@ -7,8 +7,8 @@ import (
 	azidentity "github.com/Azure/azure-sdk-for-go/sdk/azidentity"
 	a "github.com/microsoft/kiota-authentication-azure-go"
 	msgraphsdk "github.com/microsoftgraph/msgraph-sdk-go"
+	"github.com/nickolastone/sshpiper/libplugin"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/libplugin"
 	"github.com/urfave/cli/v2"
 )
 

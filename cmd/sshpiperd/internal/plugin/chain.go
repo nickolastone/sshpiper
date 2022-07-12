@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
+	"github.com/nickolastone/sshpiper/libplugin"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/libplugin"
 	"golang.org/x/crypto/ssh"
 )
 

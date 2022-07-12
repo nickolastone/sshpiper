@@ -9,11 +9,11 @@ import (
 	"strconv"
 
 	"github.com/google/uuid"
+	"github.com/nickolastone/sshpiper/libplugin"
+	"github.com/nickolastone/sshpiper/libplugin/ioconn"
 	log "github.com/sirupsen/logrus"
 	"github.com/tg123/remotesigner"
 	"github.com/tg123/remotesigner/grpcsigner"
-	"github.com/tg123/sshpiper/libplugin"
-	"github.com/tg123/sshpiper/libplugin/ioconn"
 	"golang.org/x/crypto/ssh"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

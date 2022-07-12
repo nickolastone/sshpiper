@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/tg123/sshpiper/cmd/sshpiperd/internal/plugin"
+	"github.com/nickolastone/sshpiper/cmd/sshpiperd/internal/plugin"
 	"github.com/urfave/cli/v2"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"

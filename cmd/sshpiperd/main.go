@@ -7,9 +7,9 @@ import (
 	"runtime/debug"
 	"time"
 
+	"github.com/nickolastone/sshpiper/cmd/sshpiperd/internal/plugin"
 	"github.com/pires/go-proxyproto"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/cmd/sshpiperd/internal/plugin"
 	"github.com/urfave/cli/v2"
 )
 

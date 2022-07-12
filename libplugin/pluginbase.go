@@ -8,7 +8,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/tg123/sshpiper/libplugin/ioconn"
+	"github.com/nickolastone/sshpiper/libplugin/ioconn"
 	"google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

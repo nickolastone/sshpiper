@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/nickolastone/sshpiper/libplugin"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/libplugin"
 	"github.com/urfave/cli/v2"
 )
 

@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/tg123/sshpiper/libplugin"
+	"github.com/nickolastone/sshpiper/libplugin"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 

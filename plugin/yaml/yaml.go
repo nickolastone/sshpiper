@@ -11,8 +11,8 @@ import (
 	"regexp"
 	"time"
 
+	"github.com/nickolastone/sshpiper/libplugin"
 	"github.com/patrickmn/go-cache"
-	"github.com/tg123/sshpiper/libplugin"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/knownhosts"
 	"gopkg.in/yaml.v3"

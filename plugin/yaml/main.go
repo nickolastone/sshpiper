@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/tg123/sshpiper/libplugin"
+	"github.com/nickolastone/sshpiper/libplugin"
 	"github.com/urfave/cli/v2"
 )
 
