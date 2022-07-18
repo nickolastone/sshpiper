@@ -22,7 +22,7 @@ import (
 const (
 	authorizationEndpoint             = "https://%v/%v/oauth2/v2.0/authorize"
 	instanceDiscoveryEndpoint         = "https://%v/common/discovery/instance"
-	tenantDiscoveryEndpointWithRegion = "https://%s.%s/%s/v2.0/.well-known/openid-configuration"
+	TenantDiscoveryEndpointWithRegion = "https://%v.r.%v/%v/v2.0/.well-known/openid-configuration"
 	regionName                        = "REGION_NAME"
 	defaultAPIVersion                 = "2021-10-01"
 	imdsEndpoint                      = "http://169.254.169.254/metadata/instance/compute/location?format=text&api-version=" + defaultAPIVersion
@@ -332,12 +332,7 @@ func (c Client) AADInstanceDiscovery(ctx context.Context, authorityInfo Info) (I
 		region = detectRegion(ctx)
 	}
 	if region != "" {
-		environment := authorityInfo.Host
-		switch environment {
-		case "login.microsoft.com", "login.windows.net", "sts.windows.net", defaultHost:
-			environment = "r." + defaultHost
-		}
-		resp.TenantDiscoveryEndpoint = fmt.Sprintf(tenantDiscoveryEndpointWithRegion, region, environment, authorityInfo.Tenant)
+		resp.TenantDiscoveryEndpoint = fmt.Sprintf(TenantDiscoveryEndpointWithRegion, region, authorityInfo.Host, authorityInfo.Tenant)
 		metadata := InstanceDiscoveryMetadata{
 			PreferredNetwork: fmt.Sprintf("%v.%v", region, authorityInfo.Host),
 			PreferredCache:   authorityInfo.Host,

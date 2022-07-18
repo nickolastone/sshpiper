@@ -9,8 +9,8 @@ import (
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
+	"github.com/nickolastone/sshpiper/libplugin"
 	log "github.com/sirupsen/logrus"
-	"github.com/tg123/sshpiper/libplugin"
 	"golang.org/x/crypto/ssh"
 )
 
